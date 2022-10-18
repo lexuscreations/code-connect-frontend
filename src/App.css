@@ -63,8 +63,7 @@ body {
 }
 
 .CodeMirror {
-  min-height: 100vh;
+  min-height: 95vh;
   font-size: 20px;
   line-height: 1.6;
-  padding-top: 20px;
 }
