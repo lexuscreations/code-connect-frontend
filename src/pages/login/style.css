@@ -1,0 +1,81 @@
+.Login_homePageWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #eee;
+  height: 100vh;
+}
+
+.Login_formWrapper {
+  background: var(--formLogin-aside-bg);
+  padding: 20px;
+  border-radius: 10px;
+  width: 400px;
+  max-width: 90%;
+  box-shadow: 0px 0px 30px 5px #18182c;
+}
+
+.Login_footer {
+  position: fixed;
+  bottom: 10px;
+}
+
+.Login_homePageLogo {
+  height: 80px;
+  margin-bottom: 13px;
+}
+
+.Login_inputGroup {
+  display: flex;
+  flex-direction: column;
+}
+
+.Login_inputBox {
+  padding: 10px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  margin-bottom: 14px;
+  background: #eee;
+  font-size: 16px;
+  font-weight: bold;
+  transition: all 0.3s ease-in-out;
+}
+
+.Login_inputBox:focus {
+  box-shadow: 0px 0px 15px 10px #16162c;
+  transform: scale(1.05);
+}
+
+.Login_createInfo {
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.Login_createNewBtn,
+.Login_footer a {
+  color: var(--themeColor);
+  text-decoration: none;
+
+  transition: all 0.3s ease-in-out;
+  position: relative;
+}
+
+.Login_footer a:hover {
+  color: var(--themeColor-hover);
+  border-color: var(--themeColor-hover);
+}
+
+.Login_createNewBtn:hover {
+  color: var(--themeColor-hover);
+  top: -1px;
+  border-bottom: 1px solid var(--themeColor);
+  border-color: var(--themeColor-hover);
+}
+
+.Login_createNewBtn:active,
+.Login_footer a:active {
+  color: var(--themeColor-active);
+  top: 0px;
+  border-color: var(--themeColor-active);
+}
